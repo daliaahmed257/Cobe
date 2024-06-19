@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(90, 187, 244);
+    padding: 6vmin;
+}
+
+
+/* NAVIGATION */
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.internet-link {
+    height: 56px;
+    width: 56px;
+    border-radius: 100%;
+    background-color: white;
+}
+
+.white-link {
+    background-color: white;
+    padding: 16px 24px;
+    border-radius: 32px
+}
+
+.bottom-nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.bottom-nav > h3 {
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    padding: 16px;
+    margin-bottom: 56px;
+}
+
+
+/* WHAT IS COBE SECTION */
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 56px;
+    justify-content: center;
+}
+
+.cobe-img {
+    font-size: 32vmin;
+}
+
+.cobe-description {
+    background-color: white;
+    max-width: 500px;
+    padding: 16px;
+}
+
+
+/* HOW TO BUY */
+
+.how-to-buy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 56px;
+    height: 50vh;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 32px;
+}
+
+.title > div {
+    height: 32px;
+    width: 32px;
+    border-radius: 100%;
+    background-color: white;
+}
+
+.steps {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px
+}
+
+.steps > h3 {
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    padding: 16px;
+}
+
+/* BANNER */
+
+.banner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    margin-left: -6vmin;
+    margin-right: -6vmin;
+    padding: 16px;
+}
